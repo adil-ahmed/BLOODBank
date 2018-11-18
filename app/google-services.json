@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "441405852453",
+    "firebase_url": "https://blood-bank-e90a7.firebaseio.com",
+    "project_id": "blood-bank-e90a7",
+    "storage_bucket": "blood-bank-e90a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441405852453:android:e7c7fe128f9fcca2",
+        "android_client_info": {
+          "package_name": "bloodbank.eatl.com.bloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441405852453-hmj666i05a9kef71uad1ttn59mv727uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcKcgAwiYcA6QkDstf8gKqNFkLIV_EYtc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

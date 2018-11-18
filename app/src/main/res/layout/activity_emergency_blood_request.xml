@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+
+    tools:context="bloodbank.eatl.com.bloodbank.activity.EmergencyBloodRequest">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        <EditText
+            android:id="@+id/emergencyname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/edittextborder"
+            android:hint="Name"
+            android:textColorHint="#000"
+            android:padding="7dp"/>
+        <EditText
+            android:id="@+id/emergencyphone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/edittextborder"
+            android:hint="Phone number"
+            android:textColorHint="#000"
+            android:padding="7dp"
+            />
+        <EditText
+            android:id="@+id/emergencylocation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/edittextborder"
+            android:hint="Location"
+            android:textColorHint="#000"
+            android:padding="7dp"/>
+        <Spinner
+            android:id="@+id/emergencybloodgroup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/edittextborder"
+            android:entries="@array/bloodgroup"
+            android:padding="7dp"/>
+        <Button
+            android:id="@+id/emergencybutton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/border"
+            android:hint="Request"
+            android:textColorHint="#000"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="reg_phone" type="id">10</item>
+    <item name="req_phone" type="id">11</item>
+</resources>
